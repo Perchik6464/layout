@@ -1,0 +1,112 @@
+html {
+    min-height:100%;
+}
+body {
+    margin: 20px;
+    background-color: white;
+    font-family: corbel;
+    border: 20px solid seagreen;
+    min-height: 100%;
+}
+
+.bar {
+    display: grid;
+    grid-template-columns: repeat(6,35px);
+    grid-template-rows: repeat(1, 35px);
+    grid-gap: 15px;
+    padding: 30px;
+    justify-content: right;
+}
+    .bar a {
+        background-color: white;
+        border: 3px solid black;
+        border-radius: 40px;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 24px;
+        transition-property: all;
+        transition-duration:1s;
+    }
+        .bar a:hover {
+            background-color: black;
+            border: 3px solid black;
+            border-radius: 40px;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 24px;
+            position: relative;
+            bottom: 7px;
+        }
+.bar .none {
+    border: 0px;
+
+}
+    .bar .none:hover {
+        border: 0px;
+        background-color: white;
+        color: white;
+    }
+.info {
+    display: grid;
+    grid-template-columns: repeat(1, 35%);
+    grid-template-rows: repeat(5,65px);
+    font-size: 64px;
+    margin: auto;
+    padding:4% 0%;
+    justify-content: center;
+    max-width: 1250px;
+}
+.text-1{
+    text-align:left;
+
+}
+.text-2 {
+    text-align: right;
+    font-weight: bold;
+}
+.text-3 {
+    text-align: left;
+}
+.text-4 {
+    text-align: right;
+    font-weight: bold;
+}
+.text-5 {
+    text-align: left;
+    font-weight: bold;
+}
+.text-6 {
+    margin-top: 30px;
+    font-size: 32px;
+}
+.text-7 {
+    margin-top:30px;
+    font-size: 24px;
+}
+.text-8 {
+    text-decoration: none;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    border-radius: 25px;
+    border: 3px solid black;
+    margin-top: 40px;
+    font-size: 24px;
+    transition-duration: 1s;
+}
+    .text-8:hover {
+        text-decoration: none;
+        background-color: white;
+        text-align: center;
+        color: black;
+        border: 3px solid black;
+        padding: 15px;
+        border-radius: 25px;
+        margin-top: 40px;
+        font-size: 24px;
+    }
